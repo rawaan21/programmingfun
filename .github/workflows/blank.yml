@@ -23,7 +23,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: name: Send mail
+      - uses: Send mail
   uses: dawidd6/action-send-mail@v3
   with:
     # Specify connection via URL (replaces server_address, server_port, secure,
